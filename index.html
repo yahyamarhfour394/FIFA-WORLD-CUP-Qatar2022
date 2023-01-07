@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+</head>
+<body>
+    
+    <div class="container-accueil" id="container_accueil">
+        <button id="btn_account" onclick="create_account()">صناعة حساب جديد</button>
+        <h2>FIFA WORLD CUP Qatar2022</h2>
+        <a href="دخول/دخول.html"><button class="btn" id="btne">دخول</button></a> <br>
+        <button class="btn" id="btna">إبداء رأي</button>
+    </div>
+    <div class="container-account">
+        <new-account>
+            <input type="text" id="name" placeholder="name">
+            <input type="password" id="password" placeholder="password">
+            <button id="creating" onclick="error_done()">create account</button>
+        </new-account>
+    </div>
+    <div class="container-input">
+        <input-done>
+            done
+        </input-done>
+        <input-error>
+            error: complet inputs
+        </input-error>
+    </div>
+    
+    <script src='main.js'></script>
+</body>
+</html>
